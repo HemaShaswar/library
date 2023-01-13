@@ -1,0 +1,49 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+    text-align: center;
+}
+
+.input {
+        
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    gap: 8px;
+    padding: 16px;
+    border-radius: 10%;
+    background-color: green;
+}
+
+input {
+    border-radius: 8px;
+    border: none;
+    height: 1vh;
+    padding: 8px;
+}
+
+#read {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 16px;
+    flex: 1;
+} 
+
+.book {
+    background-color: orange;
+    padding: 8px 16px;
+    border-radius: 10%;
+
+}
